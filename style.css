@@ -1,0 +1,266 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+ nav .container-fluid{
+    background-color:rgba(52,57,63,255);
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 20vH;
+}
+
+.container-fluid .listaNav{
+    color:darkgrey;
+    font-size:medium;
+}
+
+
+
+.container-fluid .listaNav img {
+    width: 200px;
+    height: 120px;
+    margin-left:20px;
+    margin-top:20px;
+    color:white;
+}
+
+
+
+.listaNav .item1{
+font-size:30px;
+color:white;
+}
+
+.listaNav .item2{
+    color:white;
+}
+    
+
+
+
+.CT{
+    color:rgba(69,131,85,255);
+}
+
+/* .imagenbsas .card-deck .card-body .card-title {
+    padding-left:1450px;
+    padding-top: 550px;
+  
+}
+
+
+
+.imagenbsas .card-text {
+    padding-left:1150px;
+    padding-top: 10px;
+  
+} */
+
+
+
+
+
+
+
+
+.en{
+    TEXT-ALIGN:CENTER;
+    MARGIN:auto;
+}
+
+
+.card-deck{
+   display:flex;
+   justify-content:center;
+   padding-left:120px;
+   padding-right:120px;
+}
+
+.card1 , .card2 , .card3{
+    margin: 20px;
+}
+
+.card-body{
+    margin: 0px 1.5px;
+    font-size :15px;
+    padding: 30px 20px;
+
+}
+
+.imagenBsAs .card-img-overlay {
+padding-left: 1300px;
+padding-top: 550px;
+}
+
+/* .borde{
+    border: 1px solid black;
+    }
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+    <div class="row borde">
+      <div class="offset-1 col-10">
+        <div class="row">
+          <div class="col-4 borde">Columna</div>
+          <div class="col-4 borde">Columna</div>
+          <div class="col-4 borde">Columna</div>
+        </div>
+      </div>
+    </div> */
+
+
+
+.card-body button{
+    padding: 3px;
+    font-size:medium;
+    margin-top: 5px;
+}
+
+
+.btn-warning{
+    color:black;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.btn-info{
+    background-color:  rgba(39,158,175,255);
+} 
+
+
+.btn-info, .btn-danger , .btn-secondary{
+    color:white;
+    font-weight: bolder;
+    padding: 3px;
+   
+}
+
+.btn-info:hover{
+    color:white;
+}
+
+.card-title , h5{
+    margin-left:auto ;
+    margin-bottom: 20px;
+}
+
+
+
+.col-md-4{
+    width:auto;
+    display:flex;
+    justify-content: center;
+    
+}
+/* 
+.contenedor{
+    /* margin:3px;
+    width:700px;
+    height: 400px; */
+    /* width: 600px;
+    height: 350px;
+    display:flex;
+   justify-content:center;
+    margin: 65px 40px 30px 20px;
+    background-color:#0000;
+    color: white;
+
+} */
+
+.tarjetas{
+    display: inline-block;
+    justify-content: center;
+    width:100%;
+}
+
+.col-md-6 {
+    background-color: rgba(53,58,64,255);
+    color: white;
+
+}
+
+.col-md-6 p {
+    background-color: rgba(53,58,64,255);
+    color: white;
+
+}
+
+.col-md-6 button {
+    background-color: rgba(53,58,64,255);
+    color: white;
+    border-color:#ffffff;
+}
+
+
+.col-md-6 img{
+    background-size: cover;
+    
+  
+}
+
+ form{
+    display:flex;
+    justify-content: center;
+ }
+
+ footer p .C{
+    text-decoration-style: dotted;
+}
+
+
+
+  input[type="text"]{
+    width: 400px;
+    height: 40px;
+    padding-right:0.5px;
+    padding-left: 0.5px;
+    margin-right: 45px;
+    text-align:left;
+ }
+
+
+#floatingTextarea2{
+    height: 150px ; 
+    width: 850px;
+}
+
+h6{
+    text-align:left;
+    font-size:small;
+    padding-bottom:5px;
+    color: #808080;
+}
+
+
+.d-grid button{
+    background-color: rgb(148, 190, 31);  
+    font-size: 23px;
+    color:white;
+    text-align:center;
+    width: 850px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+label{
+    font-size: medium;
+    color: #808080;
+}
+
+.listaF{
+    display:flex;
+    background-color: rgb(19,34,43);    ;
+    color: white;
+    padding: 70px;
+    text-align:center;
+}
+
+footer .listaf , li{
+    display:inline-block;
+    padding-right:80px;
+    padding-left: 80px;
+    text-align: center;
+  
+}
