@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="../Tp integrador/style.css" rel="stylesheet">
+    <title>Trabajo integrador</title>
+</head>
+
+<body>
+
+    <header>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-6 text" href="#">
+             <ul class="listaNav">
+              <li class="item1"><img src="../Tp integrador/img/codoacodo.png" alt="Logo" class="d-inline-block align-text-center">
+                Conf Bs As</li>
+              <li class="item2">La conferencia</li>
+              <li>Los oradores</li>
+              <li>El lugar y la fecha</li>
+              <li>Convierte en orador</li>
+              <li class="CT"><a href="CompraTickets.html">Comprar tickets</a></li>
+            </ul>
+          </a>
+          
+        </div>
+      </nav>
+
+    </header>
+
+<main>
+ 
+  <div class="descuentos">
+    <div class="estudiante">
+      <h5><Strong>Estudiante</Strong></h5>
+      <p>Tienen un Descuento</p>
+      <h5><strong>80%</strong></h5>
+      <p>* presentar documentacion</p>
+    </div>
+    <div class="trainee">
+      <h5><Strong>Trainee</Strong></h5>
+      <p>Tienen un Descuento</p>
+      <h5><strong>50%</strong></h5>
+      <p>* presentar documentacion</p>
+    </div>
+    <div class="junior">
+      <h5><Strong>Junior</Strong></h5>
+      <p>Tienen un Descuento</p>
+      <h5><strong>10%</strong></h5>
+      <p>* presentar documentacion</p>
+    </div>           
+  </div>
+<div class="titulos">
+  <p>VENTA</p>
+  <h2>VALOR DE TICKET: $200</h5><br>
+</div>
+ 
+
+  
+    <form>
+      <div class="row g-3">
+        <div class="col md-6">
+            <input type="text" name="nombre" placeholder="Nombre" class="form-control" required>
+          </div>
+        <div class="col md-6">
+          <input type="text" name="apellido" placeholder="Apellido" class="form-control" required>
+        </div>
+      </div>
+      <br>
+      <input type="text"style="width:860px;"id="inputCorreo" placeholder="Correo" class="inp" required><br>
+       
+
+            <div class="row g-3">
+              <div class="col md-6">
+                <label for="">Cantidad</label><br>
+                <input type="text"  class="form-control" name="cantidad" placeholder="cantidad" id="cantidad"  required><br>
+              </div>
+              <div class="col md-6">
+                <label for="">Categoria</label><br>
+                <select type="text"  class="form-control" id="categoriaEstudiante" name="estudiante" placeholder="Estudiante" required>
+                  <option value="Estud">Estudiante</option>
+                  <option value="Trainee">Trainee</option>
+                  <option value="Junior">Junior</option>
+                </select><br><br>
+              </div>
+            </div>
+            <div id="total">
+              <input type="number" style="background-color:rgb(197, 218, 247);" class="form-control"  name="dinero" placeholder="Total a pagar : $" id="totalPago"  required><br><br>
+            </div>
+             
+            <br>
+     
+
+
+
+<div>
+  <input type="reset" value="Borrar" class="ab" id="borrar">
+  <input type="submit" value="Resumen" class="ab" id="resumen">
+</div>
+
+      </form>
+    
+      
+    </main>
+
+    <footer>
+
+      <ul class="listaF">
+        <li>Preguntas 
+          frecuentes</li>
+        <li>Contactanos</li>
+        <li>Prensa</li>
+        <li>Conferencias</li>
+        <li>Terminos y 
+          condiciones</li>
+          <li>Privacidad</li>
+          <li>Estudiantes</li>
+      </ul>
+
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+     <script src="Js/index.js"></script>
+
+</body>
+
+</html>
